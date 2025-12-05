@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Loudness Cat</title>
+    <style>
+        body {
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        #catImg {
+            width: 400px;
+            height: auto;
+            border-radius: 15px;
+            transition: opacity 0.2s ease;
+        }
+
+        #button {
+            position: absolute;
+            bottom: 40px;
+            padding: 12px 24px;
+            font-size: 18px;
+            background: #ff6b6b;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        #button:hover {
+            background: #ff8787;
+        }
+    </style>
+</head>
+<body>
+
+    <img id="catImg" src="imgs/cat1.png" alt="Cat">
+
+    <button id="button">Mikrofon starten</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
